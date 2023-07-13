@@ -1,66 +1,121 @@
-*{
+* {
   padding: 0;
   margin: 0;
   outline: 0;
-  font-family: 'Times New Roman', Times, serif;
+  font-family: "Times New Roman", Times, serif;
 }
 
 .container {
   display: flex;
   justify-content: space-around;
-  
 }
-nav{
+nav {
   height: 1020px;
-  background: rgba(229, 84, 115, 0.10);
-
+  background: rgba(229, 84, 115, 0.1);
 }
 
-.title{
+.title {
   font-size: 30px;
   margin-top: 10px;
 }
 
-nav ul{
+nav ul {
   display: flex;
   height: 200px;
   margin-top: 20px;
   justify-content: space-around;
-  
-  
 }
-nav ul li{
- list-style: none;
- margin-right: 50px;
+nav ul li {
+  list-style: none;
+  margin-right: 50px;
 }
 
-.title-color{
-  color: #E55473;
+.title-color {
+  color: #e55473;
 }
 
-.banner{
+.banner {
   display: flex;
   justify-content: space-around;
   align-items: center;
 }
-.banner-title{
+.banner-title {
   font-size: 50px;
 }
 
-.banner-message{
+.banner-message {
   margin: 20px 0;
   font-size: 18px;
 }
-#btn{
+#btn {
   padding: 10px 15px;
   color: white;
-  background-color: #E55473;
+  background-color: #e55473;
   border: none;
   border-radius: 5px;
 }
-.banner-img{
- font-size: 20px;
- font-style: normal;
- font-weight: 700;
- line-height: normal;
+.banner-img {
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+#feature {
+  color: #272727;
+  text-align: center;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  margin: 100px 0px;
+}
+.feature-title {
+  margin: 25px 0px;
+}
+.feature-message {
+  font-size: 18px;
+  font-weight: normal;
+}
+
+.feature-content {
+  width: 310px;
+  height: 428px;
+  flex-shrink: 0;
+  padding: 110px 75px 65px 75px;
+}
+.box1 {
+  width: 464px;
+  height: 538px;
+  flex-shrink: 0;
+  border-radius: 300px 300px 0px 0px;
+  background: rgba(167, 33, 98, 0.15);
+}
+.box2 {
+  width: 464px;
+  height: 538px;
+  flex-shrink: 0;
+  border-radius: 300px 300px 0px 0px;
+  background: rgba(5, 151, 160, 0.15);
+}
+.box3 {
+  width: 464px;
+  height: 538px;
+  flex-shrink: 0;
+  border-radius: 300px 300px 0px 0px;
+  background: rgba(71, 125, 17, 0.15);
+}
+.featured-img {
+  display: flex;
+  justify-content: space-around;
+}
+.img-name {
+  color: #272727;
+  text-align: center;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 35px;
+  text-decoration-line: underline;
+  margin-top: 20px;
 }
