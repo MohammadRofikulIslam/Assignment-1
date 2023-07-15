@@ -108,6 +108,7 @@ nav ul li {
 .featured-img {
   display: flex;
   justify-content: space-around;
+  margin: 0px 40px;
 }
 .img-name {
   color: #272727;
@@ -118,4 +119,43 @@ nav ul li {
   line-height: 35px;
   text-decoration-line: underline;
   margin-top: 20px;
+}
+.icon-section{
+width: 1440px;
+height: 320px;
+flex-shrink: 0;
+padding: 100px 50px;
+  
+}
+.icon-box{
+width: 1440px;
+height: 320px;
+flex-shrink: 0;
+border-radius: 8px;
+background: rgba(39, 39, 39, 0.05);
+display: flex;
+justify-content: space-around;
+align-items: center;
+}
+.icon1{
+width: 88px;
+height: 88px;
+flex-shrink: 0;
+}
+.icon2{
+  width: 88px;
+height: 88px;
+flex-shrink: 0;
+}
+.icon3{
+width: 88px;
+height: 88px;
+flex-shrink: 0;
+}
+.icon-message{
+  color: rgba(39, 39, 39, 0.80);
+font-size: 12px;
+width: 316px;
+height: 35px;
+margin: 10px 0px;
 }
