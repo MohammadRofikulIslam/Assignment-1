@@ -7,7 +7,7 @@
 
 .container {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
 }
 nav {
   height: 1020px;
@@ -26,6 +26,7 @@ nav ul {
   justify-content: space-around;
 }
 nav ul li {
+  font-size: 18px;
   list-style: none;
   margin-right: 50px;
 }
@@ -48,6 +49,9 @@ nav ul li {
   font-size: 18px;
 }
 #btn {
+  width: 150px;
+  height: 64px;
+  font-size: 18px;
   padding: 10px 15px;
   color: white;
   background-color: #e55473;
@@ -198,6 +202,9 @@ nav ul li {
   line-height: 30px;
 }
 #sign-up-btn {
+  width: 150px;
+  height: 64px;
+  font-size: 18px;
   padding: 10px 10px;
   color: white;
   background-color: #e55473;
@@ -227,8 +234,63 @@ nav ul li {
 }
 .insta-img {
   display: flex;
-
   height: 396px;
   flex-shrink: 0;
   justify-content: space-evenly;
+}
+.subcribe {
+  background-image: url("images/deals.png");
+  background-repeat: no-repeat;
+  height: 449px;
+  background-size: 96%;
+  border-radius: 8px;
+  background-position: center;
+  margin-bottom: 100px;
+}
+.subcribe-content {
+  padding-top: 120px;
+  margin-bottom: 50px;
+}
+.subcribe-title {
+  color: #272727;
+  text-align: center;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+.subcribe-message {
+  color: rgba(39, 39, 39, 0.6);
+  text-align: center;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+  margin: 20px 0px;
+}
+.subcribe-input {
+  width: 700px;
+  height: 64px;
+  flex-shrink: 0;
+  border-radius: 8px;
+  border: none;
+  margin: 0px 10px;
+}
+#subcribe-btn {
+  width: 150px;
+  height: 64px;
+  font-size: 18px;
+  flex-shrink: 0;
+  padding: 10px 15px;
+  color: white;
+  background-color: #e55473;
+  border: none;
+  border-radius: 5px;
+}
+.input {
+  text-align: center;
+}
+.input ::placeholder {
+  padding: 20px;
+  font-size: 18px;
 }
